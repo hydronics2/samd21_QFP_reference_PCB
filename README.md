@@ -1,6 +1,6 @@
 # samd21_QFP_reference_PCB
 
-This is a reference design for a SAMD21 for easy SWD programming and testing.  This layout should work with any SAMD21 QFP package. That includes the following:
+This is a reference design for a SAMD21 for easy SWD programming and testing.  This layout should work with any SAMD21 QFP package. The QFP package is pretty easy to solder and gives you about the same amount of pins as the original Aruduino 328P. The following SAMD21 packages are QFP:
 - SAMD21E15 32kB of Flash
 - SAMD21E16 64kB of flash
 - SAMD21E17 128kB of flash
