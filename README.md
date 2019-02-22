@@ -26,4 +26,6 @@ Here's a list of parts:
 - standard 6mmx6mm tactile button [sparkfun](https://www.sparkfun.com/products/97)
 - screw terminal 5mm pitch [sparkfun](https://www.sparkfun.com/products/8432) or [aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190221221755&SearchText=pcb+screw+terminal)
 
+SWD Programmer/Debugger: [Segger](https://www.digikey.com/product-detail/en/segger-microcontroller-systems/8.08.91-J-LINK-EDU-MINI/899-1061-ND/7387472)
+
 ![schematic](https://github.com/hydronics2/samd21_QFP_reference_PCB/blob/master/schematic.JPG)
