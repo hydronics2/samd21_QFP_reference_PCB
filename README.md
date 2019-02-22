@@ -2,7 +2,7 @@
 
 This is a reference design for a SAMD21 for easy SWD programming and testing.
 
-![](test)
+![](https://github.com/hydronics2/samd21_QFP_reference_PCB/blob/master/PCB_top.png)
 
 I wanted to start to try SWD programming and these are the less expensive version of the popular SAMD21G on Adafruit and Sparkfun boards.
 This PCB design relies heavily on Adafruit and Sparkfun reference design.
