@@ -29,11 +29,12 @@ Here's a list of parts:
 - 32.768khz crystal (if needed, see above trinket design) [digikey](https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-AG3/SER4086DKR-ND/6132726)
 - crystal capacitors C7/C8 based on a 7pf load from the above crystal and assumed 2pf stray capacitence, CX1 = CX2 = 2(7pF - 2pF) = 10pF [digikey](https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012006051/732-7793-1-ND/5454420)
 
-Notes:
-- add a ground plane
-- chagne the silkscreen to SAMD21E15
-- change the silkscreen C7/C8 from 15pf to 10pf
 
 SWD Programmer/Debugger: [Segger](https://www.digikey.com/product-detail/en/segger-microcontroller-systems/8.08.91-J-LINK-EDU-MINI/899-1061-ND/7387472)
 
 ![schematic](https://github.com/hydronics2/samd21_QFP_reference_PCB/blob/master/schematic.JPG)
+
+Notes:
+- add a ground plane
+- chagne the silkscreen to SAMD21E15
+- change the silkscreen C7/C8 from 15pf to 10pf
