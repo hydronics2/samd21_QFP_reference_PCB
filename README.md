@@ -27,7 +27,7 @@ Here's a list of parts:
 - screw terminal 5mm pitch [sparkfun](https://www.sparkfun.com/products/8432) or [aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190221221755&SearchText=pcb+screw+terminal)
 - input protection diodes on the 12V and USB input into the regulator. This is Adafruit's design. [digikey](https://www.digikey.com/product-detail/en/diodes-incorporated/B130-13-F/B130-FDICT-ND/815318)
 - 32.768khz crystal (if needed, see above trinket design) [digikey](https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-AG3/SER4086DKR-ND/6132726)
-- crystal capacitors based on a 7pf load from the above crystal and assumed 2pf stray capacitence, CX1 = CX2 = 2(7pF - 2pF) = 10pF [digikey](https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012006051/732-7793-1-ND/5454420)
+- crystal capacitors C7/C8 based on a 7pf load from the above crystal and assumed 2pf stray capacitence, CX1 = CX2 = 2(7pF - 2pF) = 10pF [digikey](https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012006051/732-7793-1-ND/5454420)
 
 SWD Programmer/Debugger: [Segger](https://www.digikey.com/product-detail/en/segger-microcontroller-systems/8.08.91-J-LINK-EDU-MINI/899-1061-ND/7387472)
 
