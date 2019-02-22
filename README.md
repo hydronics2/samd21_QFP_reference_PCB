@@ -19,3 +19,8 @@ Here's a list of parts:
 - ATSAMD21E15L from [digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E15L-AFT/1611-ATSAMD21E15L-AFTCT-ND/6832779)
 - 10 pin SWD Header from [digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E15L-AFT/1611-ATSAMD21E15L-AFTCT-ND/6832779)
 - generic 5.08mm pitch screw headers (or 5mm)
+- 	FIXED IND 10UH 500MA 300 MOHM [digikey](https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N100LT000/445-6762-1-ND/2523583)
+- 3.3V Regulator (18V max input) [mouser](https://www.mouser.com/ProductDetail/511-LDL1117S50R)
+- T0-252-3 Mosfet (not needed) [mouser](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/FDD8780?qs=%2fha2pyFadugI30EyIBTPkO8PumBRFL59Ls98N48NSzc%3d)
+
+
