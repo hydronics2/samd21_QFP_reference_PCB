@@ -16,7 +16,7 @@ You can order boards from Oshpark using this link: [project](https://oshpark.com
 Here's a list of parts:
 
 
-- ATSAMD21E15L from [digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E15L-AFT/1611-ATSAMD21E15L-AFTCT-ND/6832779)
+- ATSAMD21E15B from [digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E15B-AFT/1611-ATSAMD21E15B-AFTCT-ND/6832773). Don't get the ATSAMD21E15L!... the pinout is slightly different.
 - 10 pin SWD Header from [digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E15L-AFT/1611-ATSAMD21E15L-AFTCT-ND/6832779)
 - generic 5.08mm pitch screw headers (or 5mm)
 - 	FIXED IND 10UH 500MA 300 MOHM [digikey](https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N100LT000/445-6762-1-ND/2523583)
