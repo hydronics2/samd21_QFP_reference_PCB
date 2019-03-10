@@ -49,3 +49,7 @@ About 50 lines of simple code uses 332 bytes (12%) in for the UNO but compiles o
 
 That means that I should have gone with the SAMD21E17 or SAMD21E18 with 128 or 256kb respectively.
 
+[westf wrote this on the Arduino forum](https://forum.arduino.cc/index.php?topic=602377.msg4091161#msg4091161)... That's not as bad as it sounds - a sketch has a fair about of "fixed overhead" (an empty Zero sketch is 10k.) 
+So you're seeing THAT rather than some huge "50 lines of code bloats to 9k of code" multiplier for 32bit RISC.   You should be able to fit a pretty significant sketch into the 10k you have left...
+But yeah, most ARM libraries (not just the Arduino code, BTW) pretty much assume that you'll have lots of memory, and don't bother being very inefficient.  (adding a tiny bit of floating point will use up another 9k.)
+(and 8k for a bootloader?  Sheesh!)
