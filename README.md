@@ -43,6 +43,7 @@ Notes:
 
 
 **READ THIS
+
 The SAMD21E15 only has 32kb of flash. Fine for 8bit architecture but not for 32bit SAMD21 architecture!!
 About 50 lines of simple code uses 332 bytes (12%) in for the UNO but compiles over 9,000 bytes (9248 bytes (56%)) for the SAMD21E15, SAMD21E16, SAMD21E17, etc
 
