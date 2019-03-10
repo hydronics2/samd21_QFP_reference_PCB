@@ -1,0 +1,39 @@
+
+
+######################################################
+#ARDUINO M0 (WITH) BOOTLOADER
+samd21e15.name=samd21e15
+samd21e15.vid.0=0x2a03
+samd21e15.pid.0=0x004d
+samd21e15.vid.1=0x2a03
+samd21e15.pid.1=0x804d
+samd21e15.vid.2=0x2a03
+samd21e15.pid.2=0x004e
+samd21e15.vid.3=0x2a03
+samd21e15.pid.3=0x804e
+samd21e15.upload.tool=arduino:openocd-withbootsize
+samd21e15.upload.protocol=cmsis-dap
+samd21e15.upload.maximum_size=16384
+samd21e15.upload.use_1200bps_touch=true
+samd21e15.upload.wait_for_upload_port=true
+samd21e15.upload.native_usb=true
+samd21e15.upload.speed=57600
+samd21e15.build.mcu=cortex-m0plus
+samd21e15.build.f_cpu=48000000L
+samd21e15.build.usb_product="Arduino M0"
+samd21e15.build.board=SAM_ZERO
+samd21e15.build.core=arduino:arduino
+samd21e15.build.extra_flags=-D__SAMD21G18A__ -mthumb {build.usb_flags}
+samd21e15.build.ldscript=linker_scripts/gcc/flash_without_bootloader.ld
+samd21e15.openocdscript=openocd_scripts/arduino_zero.cfg
+samd21e15.build.variant=samd21e15
+samd21e15.build.variant_system_lib=
+samd21e15.build.vid=0x2a03
+samd21e15.build.pid=0x804e
+samd21e15.build.preferred_out_format=hex
+#samd21e15.bootloader.size=0x4000
+#samd21e15.build.emu.mcu=atmega2560
+#samd21e15.bootloader.tool=avrdude
+#samd21e15.bootloader.low_fuses=0xff
+
+######################################################
