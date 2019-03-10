@@ -39,8 +39,13 @@ Notes:
 - chagne the silkscreen to SAMD21E15
 - change the silkscreen C7/C8 from 15pf to 10pf
 
-'**READ THIS
+
+
+
+**READ THIS
+
 The SAMD21E15 only has 32kb of flash. Fine for 8bit architecture but not for 32bit SAMD21 architecture!!
-The below bit of code (about 50 lines) uses 332 bytes (12%) in for the UNO but compiles over 9,000 bytes (9248 bytes (56%)) for the SAMD21E15, SAMD21E16, SAMD21E17, etc
+About 50 lines of simple code uses 332 bytes (12%) in for the UNO but compiles over 9,000 bytes (9248 bytes (56%)) for the SAMD21E15, SAMD21E16, SAMD21E17, etc
+
 That means that I should have gone with the SAMD21E17 or SAMD21E18 with 128 or 256kb respectively.
 
