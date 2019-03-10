@@ -1,8 +1,8 @@
-# samd21_QFP_reference_PCB (not tested)
+# samd21_QFP_reference_PCB
 
 This is a reference design for a SAMD21 for easy SWD programming and testing.  This layout should work with any SAMD21 QFP package. The QFP package is pretty easy to solder and gives you about the same amount of pins as the original Aruduino 328P. The following SAMD21 packages are QFP:
-- SAMD21E15 32kB of Flash
-- SAMD21E16 64kB of flash
+- SAMD21E15 32kB of Flash **(read this)
+- SAMD21E16 64kB of flash **(read this)
 - SAMD21E17 128kB of flash
 - SAMD21E18 256kB of flash
 
@@ -38,3 +38,9 @@ Notes:
 - add a ground plane
 - chagne the silkscreen to SAMD21E15
 - change the silkscreen C7/C8 from 15pf to 10pf
+
+'**READ THIS
+The SAMD21E15 only has 32kb of flash. Fine for 8bit architecture but not for 32bit SAMD21 architecture!!
+The below bit of code (about 50 lines) uses 332 bytes (12%) in for the UNO but compiles over 9,000 bytes (9248 bytes (56%)) for the SAMD21E15, SAMD21E16, SAMD21E17, etc
+That means that I should have gone with the SAMD21E17 or SAMD21E18 with 128 or 256kb respectively.
+
