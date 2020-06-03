@@ -6,6 +6,8 @@ This is a reference design for a SAMD21 for easy SWD programming and testing.  T
 - SAMD21E17 128kB of flash
 - SAMD21E18 256kB of flash
 
+I made a specific reference board for the SAMD21G [posted here](https://github.com/hydronics2/2020-samd21_QFP_Reference) used in the Adafruit ItsyBitsy M0.
+
 ![](https://github.com/hydronics2/samd21_QFP_reference_PCB/blob/master/PCB_top.png)
 
 I wanted to start to try SWD programming and these are the less expensive version of the popular SAMD21G on Adafruit and Sparkfun boards.
@@ -17,7 +19,7 @@ Here's a list of parts:
 
 
 - ATSAMD21E15B from [digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E15B-AFT/1611-ATSAMD21E15B-AFTCT-ND/6832773). Don't get the ATSAMD21E15L!... the pinout is slightly different.
-- 10 pin SWD Header from [digikey](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21E15L-AFT/1611-ATSAMD21E15L-AFTCT-ND/6832779)
+- generic 10 pin SWD Header from [mouser](https://www.mouser.com/ProductDetail/485-752)
 - generic 5.08mm pitch screw headers (or 5mm)
 - 	FIXED IND 10UH 500MA 300 MOHM [digikey](https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N100LT000/445-6762-1-ND/2523583)
 - 3.3V Regulator (18V max input) [mouser](https://www.mouser.com/ProductDetail/511-LDL1117S50R)
@@ -49,7 +51,7 @@ About 50 lines of simple code uses 332 bytes (12%) in for the UNO but compiles o
 
 That means that I should have gone with the SAMD21E17 or SAMD21E18 with 128 or 256kb respectively.
 
-[westf wrote this on the Arduino forum](https://forum.arduino.cc/index.php?topic=602377.msg4091161#msg4091161)... That's not as bad as it sounds - a sketch has a fair about of "fixed overhead" (an empty Zero sketch is 10k.) 
+[westf wrote this on the Arduino forum](https://forum.arduino.cc/index.php?topic=602377.msg4091161#msg4091161)... That's not as bad as it sounds - a sketch has a fair about of "fixed overhead" (an empty Zero sketch is 10k.)
 So you're seeing THAT rather than some huge "50 lines of code bloats to 9k of code" multiplier for 32bit RISC.   You should be able to fit a pretty significant sketch into the 10k you have left...
 But yeah, most ARM libraries (not just the Arduino code, BTW) pretty much assume that you'll have lots of memory, and don't bother being very inefficient.  (adding a tiny bit of floating point will use up another 9k.)
 (and 8k for a bootloader?  Sheesh!)
